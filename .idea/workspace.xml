@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9f092c-b104-48c4-9d71-49d1c21f393d" name="Changes" comment="form">
-      <change afterPath="$PROJECT_DIR$/src/Controller/AboutController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/FormRedirectController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form_redirect.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ContactFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ContactFormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +221,7 @@
       <workItem from="1727164354794" duration="19000" />
       <workItem from="1728544624846" duration="5007000" />
       <workItem from="1728556263391" duration="543000" />
-      <workItem from="1728885558340" duration="4716000" />
+      <workItem from="1728885558340" duration="5853000" />
     </task>
     <task id="LOCAL-00001" summary="form">
       <option name="closed" value="true" />
