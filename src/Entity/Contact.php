@@ -20,9 +20,12 @@ class Contact
     private ?string $firstName = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\NotBlank(message: "Field `Last Name` is mandatory")]
     private ?string $lastName = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\NotBlank(message: "Field `email` is mandatory")]
+    #[Assert\Email(message:"{{ value }} is not a valid email")]
     private ?string $email = null;
 
     #[ORM\Column(length: 255)]

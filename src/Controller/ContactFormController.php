@@ -23,7 +23,7 @@ class ContactFormController extends AbstractController
             $entityManager = $doctrine->getManager();
             $entityManager->persist($contacto);
             $entityManager->flush();
-            return $this->redirectToRoute('index', []);
+            return $this->redirectToRoute('redirect', []);
         }
         return $this->render('contact.html.twig', array(
             'form' => $form->createView()
